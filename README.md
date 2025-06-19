@@ -1,12 +1,33 @@
-# React + Vite
+# 🐍 Snake Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um portfólio interativo em formato de jogo Snake — onde cada fruta representa uma secção com informação sobre mim.
 
-Currently, two official plugins are available:
+## 🎮 Como Jogar
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Usa as **setas** do teclado para mover a cobra.
+- Pressiona **ESC** para fechar qualquer janela.
+- Evita bater nas pedras 🪨 — senão o jogo acaba!
+- No ecrã de Game Over, podes escolher ver:
+  - 👤 Sobre Mim
+  - 💼 Projetos
+  - 🧠 Experiência
 
-## Expanding the ESLint configuration
+## 🍎 Frutas e Efeitos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Fruta | Função                    | Pontuação |
+|-------|----------------------------|-----------|
+| 👤     | Abre o ecrã "Sobre Mim"    | +1        |
+| 💼     | Abre o ecrã "Projetos"     | +1        |
+| 🧠     | Abre o ecrã "Experiência"  | +1        |
+| 🍏     | Aumenta o tamanho da cobra | +2        |
+| 💀     | Diminui o tamanho da cobra | -1 (mín. 0)|
+
+## 💻 Tecnologias
+
+- React + Vite
+- Tailwind CSS
+- JavaScript (100% funcional e simples)
+
+
+
+
